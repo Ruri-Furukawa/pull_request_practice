@@ -1,0 +1,2 @@
+2024-03-04 13:08:59.180 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-04 13:08:59.605 [error] [default] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as Ruri-Furukawa."

@@ -1,0 +1,78 @@
+2024-03-04 13:08:30.791 [info] ログ レベル: Info
+2024-03-04 13:08:30.791 [info] Git の検証が検出されました: "git"
+2024-03-04 13:08:30.791 [info] "git" から Git "2.43.0" を使用しています
+2024-03-04 13:08:30.791 [info] > git rev-parse --show-toplevel [11809ms]
+2024-03-04 13:08:30.791 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:08:30.791 [info] > git rev-parse --show-toplevel [1025ms]
+2024-03-04 13:08:30.791 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:08:31.374 [info] > git rev-parse --show-toplevel [381ms]
+2024-03-04 13:08:31.741 [info] > git rev-parse --git-dir --git-common-dir [38ms]
+2024-03-04 13:08:31.788 [info] Open repository: /home/vscode/.nodenv
+2024-03-04 13:08:35.462 [info] > git check-ignore -v -z --stdin [1393ms]
+2024-03-04 13:08:35.474 [info] > git rev-parse --show-toplevel [3420ms]
+2024-03-04 13:08:35.475 [info] > git config --get commit.template [3531ms]
+2024-03-04 13:08:36.243 [info] > git rev-parse --git-dir --git-common-dir [660ms]
+2024-03-04 13:08:36.263 [info] Open repository: /home/vscode/.oh-my-zsh
+2024-03-04 13:08:36.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [821ms]
+2024-03-04 13:08:36.735 [warning] ENOENT: no such file or directory, open '/home/vscode/.nodenv/.git/refs/remotes/origin/master'
+2024-03-04 13:08:36.745 [info] > git rev-parse --show-toplevel [223ms]
+2024-03-04 13:08:36.746 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:08:36.751 [info] > git config --get commit.template [322ms]
+2024-03-04 13:08:37.160 [info] > git rev-parse --show-toplevel [235ms]
+2024-03-04 13:08:37.160 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:08:37.171 [info] > git rev-parse refs/remotes/origin/master [437ms]
+2024-03-04 13:08:41.285 [info] > git status -z -uall [3902ms]
+2024-03-04 13:08:41.287 [info] > git check-ignore -v -z --stdin [3772ms]
+2024-03-04 13:08:41.294 [info] > git check-ignore -v -z --stdin [3639ms]
+2024-03-04 13:08:41.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4220ms]
+2024-03-04 13:08:41.963 [warning] ENOENT: no such file or directory, open '/home/vscode/.oh-my-zsh/.git/refs/remotes/origin/master'
+2024-03-04 13:08:50.009 [info] > git rev-parse --show-toplevel [12058ms]
+2024-03-04 13:08:50.334 [info] > git rev-parse refs/remotes/origin/master [8371ms]
+2024-03-04 13:08:50.771 [info] > git config --get commit.template [8997ms]
+2024-03-04 13:08:54.071 [info] > git rev-parse --git-dir --git-common-dir [3876ms]
+2024-03-04 13:08:54.097 [info] Open repository: /home/vscode/environment
+2024-03-04 13:08:54.623 [info] > git status -z -uall [3853ms]
+2024-03-04 13:08:54.881 [info] > git rev-parse --show-toplevel [271ms]
+2024-03-04 13:08:54.882 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:08:54.904 [info] > git config --get commit.template [366ms]
+2024-03-04 13:08:54.904 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [654ms]
+2024-03-04 13:08:56.459 [warning] ENOENT: no such file or directory, open '/home/vscode/.nodenv/.git/refs/remotes/origin/master'
+2024-03-04 13:08:56.510 [info] > git config --get commit.template [1731ms]
+2024-03-04 13:08:56.511 [info] > git config --local branch.master.github-pr-owner-number [1790ms]
+2024-03-04 13:08:56.987 [info] No remotes found in the git config file.
+2024-03-04 13:08:57.477 [info] > git rev-parse refs/remotes/origin/master [1018ms]
+2024-03-04 13:08:57.629 [info] > git rev-parse --show-toplevel [1476ms]
+2024-03-04 13:08:57.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:08:59.010 [info] > git check-ignore -v -z --stdin [2380ms]
+2024-03-04 13:08:59.011 [info] > git check-ignore -v -z --stdin [2262ms]
+2024-03-04 13:08:59.011 [info] > git check-ignore -v -z --stdin [2090ms]
+2024-03-04 13:08:59.014 [info] > git status -z -uall [1385ms]
+2024-03-04 13:08:59.029 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2042ms]
+2024-03-04 13:08:59.841 [info] > git rev-parse --show-toplevel [1179ms]
+2024-03-04 13:08:59.841 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:08:59.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1414ms]
+2024-03-04 13:09:00.256 [warning] ENOENT: no such file or directory, open '/home/vscode/.oh-my-zsh/.git/refs/remotes/origin/master'
+2024-03-04 13:09:00.742 [info] > git status -z -uall [1590ms]
+2024-03-04 13:09:01.896 [info] > git config --local branch.main.github-pr-owner-number [875ms]
+2024-03-04 13:09:02.125 [info] > git rev-parse refs/remotes/origin/master [1864ms]
+2024-03-04 13:09:02.379 [info] > git rev-parse --show-toplevel [2377ms]
+2024-03-04 13:09:02.379 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:09:03.702 [info] > git status -z -uall [1324ms]
+2024-03-04 13:09:03.710 [info] > git config --local branch.main.remote [1591ms]
+2024-03-04 13:09:03.718 [info] > git config --get commit.template [2317ms]
+2024-03-04 13:09:03.833 [info] > git rev-parse --show-toplevel [427ms]
+2024-03-04 13:09:03.833 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:09:04.184 [info] No remotes found in the git config file.
+2024-03-04 13:09:05.701 [warning] Failed to get repository realpath for: "/home/vscode/.vscode-remote/extensions/.1eb9afc6-5106-4247-8a19-1080081ff6b4/". Error: ENOENT: no such file or directory, realpath '/home/vscode/.vscode-remote/extensions/.1eb9afc6-5106-4247-8a19-1080081ff6b4/'
+2024-03-04 13:09:06.332 [info] > git config --local branch.master.github-pr-owner-number [1972ms]
+2024-03-04 13:09:06.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2386ms]
+2024-03-04 13:09:06.871 [info] > git status -z -uall [116ms]
+2024-03-04 13:09:06.875 [info] > git rev-parse --show-toplevel [574ms]
+2024-03-04 13:09:06.876 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:09:09.884 [info] > git config --local branch.master.github-pr-owner-number [1553ms]
+2024-03-04 13:09:52.068 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-04 13:09:52.068 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:10:13.088 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-04 13:10:13.088 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:10:20.245 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-04 13:10:20.245 [info] fatal: not a git repository (or any of the parent directories): .git
